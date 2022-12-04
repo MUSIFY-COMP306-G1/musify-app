@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abimanoharan/Projects/MusifyApp/MusifyApp/MusifyApp.csproj": {}
+    "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj": {}
   },
   "projects": {
-    "/Users/abimanoharan/Projects/MusifyApp/MusifyApp/MusifyApp.csproj": {
+    "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abimanoharan/Projects/MusifyApp/MusifyApp/MusifyApp.csproj",
+        "projectUniqueName": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj",
         "projectName": "MusifyApp",
-        "projectPath": "/Users/abimanoharan/Projects/MusifyApp/MusifyApp/MusifyApp.csproj",
+        "projectPath": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj",
         "packagesPath": "/Users/abimanoharan/.nuget/packages/",
-        "outputPath": "/Users/abimanoharan/Projects/MusifyApp/MusifyApp/obj/",
+        "outputPath": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abimanoharan/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,22 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             },
