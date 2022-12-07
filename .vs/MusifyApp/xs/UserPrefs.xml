@@ -1,26 +1,27 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{AA312AA5-A30A-41F0-8D6E-D4FCA224A595}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MusifyAPI FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MusifyLibrary FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MusifyApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MusifyApp/Controllers/SongController.cs">
     <Files>
-      <File FileName="MusifyApp/Models/Song.cs" Line="18" Column="1" />
-      <File FileName="MusifyApp/Models/MusifyContext.cs" Line="52" Column="1" />
-      <File FileName="MusifyApp/Controllers/SongController.cs" Line="17" Column="1" />
-      <File FileName="MusifyApp/Program.cs" Line="5" Column="26" />
+      <File FileName="MusifyApp/Models/Song.cs" Line="15" Column="1" />
+      <File FileName="MusifyApp/Controllers/SongController.cs" Line="52" Column="24" />
+      <File FileName="MusifyApp/Models/MusifyContext.cs" Line="23" Column="1" />
+      <File FileName="MusifyApp/Program.cs" Line="30" Column="23" />
+      <File FileName="MusifyApp/appsettings.json" />
+      <File FileName="MusifyApp/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="MusifyApp/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MusifyApp" expanded="True">
-            <Node name="MusifyApp" expanded="True">
+            <Node name="MusifyApp" expanded="True" selected="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="SongController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
             </Node>
           </Node>
@@ -28,5 +29,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

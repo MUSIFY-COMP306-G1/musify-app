@@ -1,0 +1,14 @@
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.deps.json
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.dll
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.pdb
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.csproj.AssemblyReference.cache
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.AssemblyInfoInputs.cache
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.AssemblyInfo.cs
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.csproj.CoreCompileInputs.cache
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.dll
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/refint/MusifyLibrary.dll
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.pdb
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/ref/MusifyLibrary.dll
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.runtimeconfig.json
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.genruntimeconfig.cache

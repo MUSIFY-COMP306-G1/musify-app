@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusifyApp", "MusifyApp\MusifyApp.csproj", "{AA312AA5-A30A-41F0-8D6E-D4FCA224A595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusifyLibrary", "MusifyLibrary\MusifyLibrary.csproj", "{AEE260BE-178F-4501-B261-8E1B6EE2C39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusifyAPI", "MusifyAPI\MusifyAPI.csproj", "{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AA312AA5-A30A-41F0-8D6E-D4FCA224A595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA312AA5-A30A-41F0-8D6E-D4FCA224A595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA312AA5-A30A-41F0-8D6E-D4FCA224A595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE260BE-178F-4501-B261-8E1B6EE2C39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE260BE-178F-4501-B261-8E1B6EE2C39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE260BE-178F-4501-B261-8E1B6EE2C39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE260BE-178F-4501-B261-8E1B6EE2C39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
