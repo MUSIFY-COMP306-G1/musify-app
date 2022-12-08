@@ -5,29 +5,23 @@
   <MonoDevelop.Ide.ItemProperties.MusifyLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MusifyApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MusifyApp/Controllers/SongController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MusifyApp/Models/MusifyContext.cs">
     <Files>
-      <File FileName="MusifyApp/Models/Song.cs" Line="15" Column="1" />
-      <File FileName="MusifyApp/Controllers/SongController.cs" Line="52" Column="24" />
-      <File FileName="MusifyApp/Models/MusifyContext.cs" Line="23" Column="1" />
-      <File FileName="MusifyApp/Program.cs" Line="30" Column="23" />
-      <File FileName="MusifyApp/appsettings.json" />
-      <File FileName="MusifyApp/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="MusifyApp/Models/MusifyContext.cs" Line="27" Column="10" />
+      <File FileName="MusifyApp/Program.cs" Line="12" Column="4" />
       <File FileName="MusifyApp/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="MusifyApp/appsettings.json" Line="1" Column="1" />
+      <File FileName="MusifyApp/Models/Song.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MusifyApp" expanded="True">
-            <Node name="MusifyApp" expanded="True" selected="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="MusifyApp" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

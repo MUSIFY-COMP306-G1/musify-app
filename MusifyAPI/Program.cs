@@ -25,6 +25,8 @@ public class Program
 
         builder.Services.AddScoped<IMusifyRepository, MusifyRepository>();
 
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

@@ -6,14 +6,14 @@ using MusifyLibrary.Models;
 
 namespace MusifyAPI.Services
 {
-	public class MusifyRepository : IMusifyRepository
-	{
-		private MusifyContext _context;
+    public class MusifyRepository : IMusifyRepository
+    {
+        private MusifyContext _context;
 
-		public MusifyRepository()
-		{
+        public MusifyRepository()
+        {
 
-		}
+        }
 
         public async Task<ActionResult<IEnumerable<Song>>> GetSongs()
         {
@@ -28,7 +28,6 @@ namespace MusifyAPI.Services
         }
 
         // PUT: api/Song/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         public async Task PutSong(int id, Song song)
         {
             _context.Entry(song).State = EntityState.Modified;
@@ -36,7 +35,6 @@ namespace MusifyAPI.Services
         }
 
         // POST: api/Song
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task PostSong(Song song)
         {
@@ -54,11 +52,11 @@ namespace MusifyAPI.Services
         }
 
         // PATCH: 
-        public async Task PatchSong(int id)
+        public async Task PatchSong(int id, String? name, String? album, String? genre, String? artist)
         {
-                // TO DO //
+            // TO DO //
         }
-        // TO DO //
+
 
         private bool SongExists(int id)
         {

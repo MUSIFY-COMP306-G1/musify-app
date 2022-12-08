@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "zGf5JdS7cJ3Mz2lwxHCW8xbWXtPRJbc1hDcpUa5S32X2PMZq7jPnsoR249+nwdsuUD5dFSXUi/ZfkWwSwGFM3w==",
+  "dgSpecHash": "NX7NwzqvuywWScT5YrIR9t48sQSj0ap1FXcxO/7b/R6r8t+yaMZpG135E0POMr/0cJp+6QO6lrSXVC1FC2h2Rg==",
   "success": true,
   "projectFilePath": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyAPI/MusifyAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/abimanoharan/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/abimanoharan/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/abimanoharan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/abimanoharan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.1/microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "/Users/abimanoharan/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
