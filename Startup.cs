@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using MusifyApp.Model;
+using MusifyAPI.Services;
 
-namespace MusifyApp
+namespace MusifyAPI
 {
-    public class Startup
-    {
-
+	public class Startup
+	{
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -17,14 +17,16 @@ namespace MusifyApp
         //This method is called at runtime. Add service to container
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MusicContext>(opt => opt.UseInMemoryDatabase("MusicList"));
-            services.AddControllers();
+            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_2);
+            services.AddDbContext<MusifyLibrary.Models.MusifyContext>();
+            services.AddScoped<IMusifyRepository, MusifyRepository>();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         //This method is called at runtime. Configure http request pipeline
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if(env.IsDevelopment())
+            if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
@@ -38,3 +40,4 @@ namespace MusifyApp
 
     }
 }
+
