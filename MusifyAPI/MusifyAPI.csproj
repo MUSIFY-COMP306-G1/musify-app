@@ -23,9 +23,12 @@
     <None Remove="Services\" />
     <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
     <None Remove="DTOs\" />
+    <None Remove="Mappings\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="DTOs\" />
+    <Folder Include="Services\" />
+    <Folder Include="Mappings\" />
   </ItemGroup>
 </Project>

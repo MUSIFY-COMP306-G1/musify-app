@@ -1,4 +1,4 @@
-﻿<Properties GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{AA312AA5-A30A-41F0-8D6E-D4FCA224A595}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -9,15 +9,13 @@
       <File FileName="MusifyApp.csproj" Line="1" Column="1" />
       <File FileName="MusifyApp/Models/Song.cs" />
       <File FileName="MusifyApp/Models/MusifyContext.cs" />
-      <File FileName="MusifyApp/Controllers/SongController.cs" Line="8" Column="16" />
+      <File FileName="MusifyApp/Controllers/SongController.cs" Line="24" Column="13" />
       <File FileName="MusifyApp/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MusifyApp" expanded="True">
-            <Node name="MusifyApp" selected="True" />
-          </Node>
+          <Node name="MusifyApp" expanded="True" />
         </State>
       </Pad>
     </Pads>

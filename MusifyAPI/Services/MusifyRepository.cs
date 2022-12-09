@@ -55,6 +55,14 @@ namespace MusifyAPI.Services
         public async Task PatchSong(int id, String? name, String? album, String? genre, String? artist)
         {
             // TO DO //
+            var song = await _context.Songs.FindAsync(id);
+
+            _context.Entry(name).State = EntityState.Modified;
+            _context.Entry(album).State = EntityState.Modified;
+            _context.Entry(genre).State = EntityState.Modified;
+            _context.Entry(artist).State = EntityState.Modified;
+            var res = await _context.SaveChangesAsync();
+
         }
 
 

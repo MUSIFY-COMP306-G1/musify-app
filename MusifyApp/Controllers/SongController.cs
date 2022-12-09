@@ -80,6 +80,47 @@ namespace MusifyApp.Controllers
             return NoContent();
         }
 
+        // PATCH: api/Song/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchSong(int id, string? name, string? album, string? genre, string? artist)
+        {
+            if (_context.Songs == null)
+            {
+                return NotFound();
+            }
+            var song = await _context.Songs.FindAsync(id);
+            
+
+            if (song == null)
+            {
+                return NotFound();
+            }
+
+            _context.Entry(name).State = EntityState.Modified;
+            _context.Entry(album).State = EntityState.Modified;
+            _context.Entry(genre).State = EntityState.Modified;
+            _context.Entry(artist).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!SongExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
         // POST: api/Song
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
