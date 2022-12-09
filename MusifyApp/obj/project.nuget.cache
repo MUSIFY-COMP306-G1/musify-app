@@ -1,11 +1,18 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "FxUG/smjXH8eOxWsCnyyb9Y3ZW9D732rmjQabYz710Tsw8iqw97xXs1r/AhDNcL0/Fx6vAVYK1st81J7Puhxww==",
   "success": true,
   "projectFilePath": "/Users/kamsi/Downloads/musify-app-main/MusifyApp/MusifyApp.csproj",
   "expectedPackageFiles": [
     "/Users/kamsi/.nuget/packages/awssdk.core/3.7.101/awssdk.core.3.7.101.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/awssdk.s3/3.7.101.28/awssdk.s3.3.7.101.28.nupkg.sha512",
+=======
+  "dgSpecHash": "TrUMrXZLEVaf7rRGw+zTPo2d1FRs4+pmek4Y/KchCQ3wh4TPkfsi7T8l2G5EzzEvSYXBLTtQvk85sdULjPm5lg==",
+  "success": true,
+  "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
+  "expectedPackageFiles": [
+>>>>>>> Stashed changes
     "/Users/kamsi/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

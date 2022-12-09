@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "/Users/kamsi/Downloads/musify-app-main/MusifyApp/MusifyApp.csproj": {}
+    "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/MusifyLibrary.csproj": {}
   },
   "projects": {
-    "/Users/kamsi/Downloads/musify-app-main/MusifyApp/MusifyApp.csproj": {
+    "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/MusifyLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kamsi/Downloads/musify-app-main/MusifyApp/MusifyApp.csproj",
-        "projectName": "MusifyApp",
-        "projectPath": "/Users/kamsi/Downloads/musify-app-main/MusifyApp/MusifyApp.csproj",
+        "projectUniqueName": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/MusifyLibrary.csproj",
+        "projectName": "MusifyLibrary",
+        "projectPath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/MusifyLibrary.csproj",
         "packagesPath": "/Users/kamsi/.nuget/packages/",
-        "outputPath": "/Users/kamsi/Downloads/musify-app-main/MusifyApp/obj/",
-=======
-    "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj": {}
-  },
-  "projects": {
-    "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
-        "projectName": "MusifyApp",
-        "projectPath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
-        "packagesPath": "/Users/kamsi/.nuget/packages/",
-        "outputPath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/obj/",
->>>>>>> Stashed changes
+        "outputPath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kamsi/.nuget/NuGet/NuGet.Config"
@@ -52,17 +38,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "AWSSDK.Core": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[3.7.101, )"
-            },
-            "AWSSDK.S3": {
-              "target": "Package",
-              "version": "[3.7.101.28, )"
-            },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[12.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,23 +56,11 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -109,9 +75,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
