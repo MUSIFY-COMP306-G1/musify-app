@@ -1167,6 +1167,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+<<<<<<< Updated upstream
+=======
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+>>>>>>> Stashed changes
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "compile": {
@@ -3701,6 +3706,7 @@
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
+      "Microsoft.EntityFrameworkCore >= 7.0.0",
       "MusifyLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -3751,6 +3757,10 @@
             "version": "[12.0.0, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.0, )"
           },

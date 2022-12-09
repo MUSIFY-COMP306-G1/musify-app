@@ -1,14 +1,27 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "s5z7yPD4iyu5T+N6Qr8OH7Y8tsVvr/QjCnGkxZUw/FD4ZFrPY1/u1I39iYP1UuDd6WKbiNJvyE/E4/WRm0cYdg==",
   "success": true,
   "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/MusifyLibrary.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "BhgPOWQ9KN3WsaH+s07Jo8yeoQiqvhj9LqwIGMIOGVnHnL3h/k8Ozuuf+JNRxMQpjcNAzWmpprttk1v4bYaWLg==",
+  "success": true,
+  "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/MusifyLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/kamsi/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/kamsi/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "/Users/kamsi/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+<<<<<<< Updated upstream
     "/Users/kamsi/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+=======
+    "/Users/kamsi/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "/Users/kamsi/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.1/microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

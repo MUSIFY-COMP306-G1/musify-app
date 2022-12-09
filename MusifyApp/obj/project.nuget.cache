@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "dgSpecHash": "+3Qkt3R4IdU1JeG+u0x+4RIVmyopuGQza9LY+QFOT6RxOuTuFTlkvIx/fx6lYpJGVdCgdIviRBwO5a9GfztZRw==",
   "success": true,
   "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
@@ -9,6 +10,12 @@
     "/Users/kamsi/.nuget/packages/awssdk.s3/3.7.101.28/awssdk.s3.3.7.101.28.nupkg.sha512",
 =======
   "dgSpecHash": "Kv5utYNBiW6jnyaQw1pcphDB4WmRKegDCV046onnsvTlxjjuUIUzgqPfGqmuwjejgKZyNlS3O4mBEcjRkuil9g==",
+  "success": true,
+  "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
+  "expectedPackageFiles": [
+>>>>>>> Stashed changes
+=======
+  "dgSpecHash": "TrUMrXZLEVaf7rRGw+zTPo2d1FRs4+pmek4Y/KchCQ3wh4TPkfsi7T8l2G5EzzEvSYXBLTtQvk85sdULjPm5lg==",
   "success": true,
   "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
   "expectedPackageFiles": [

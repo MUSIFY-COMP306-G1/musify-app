@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "+2dK7C5Ttvc4M1zwqH648g2x6B56EZG7RBfaBXBm4ocdVyIosUMbQHEiIJp8cBYalHxQuCicmAos8wNdG8JVYg==",
+=======
+  "dgSpecHash": "yJbdZ6KSwXK/iQDSmL1izoRHByTWgYQm7/2H6FfRiTxZ8TQLSRchjCKuCUqFkjE6OQFmnTV0J5wLxswC9/KoBA==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyAPI/MusifyAPI.csproj",
   "expectedPackageFiles": [
