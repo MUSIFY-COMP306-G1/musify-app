@@ -23,7 +23,7 @@ namespace MusifyAPI.Controllers
 
         //Get: api/controllers
         [HttpGet]
-        [Route("/api/Song")]
+        [Route("/api/Music")]
         public async Task<ActionResult<Song>> GetAllMusic()
         {
             var music = await _musifyRepository.GetSongs();
@@ -41,15 +41,14 @@ namespace MusifyAPI.Controllers
         }
 
         // PUT: api/Song/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutSong(int id, Song song)
         {
-            return null;
+            await _musifyRepository.PutSong(id, song);
+            return Ok();
         }
 
         // PATCH: api/Song/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPatch("{id}")]
         public async Task<IActionResult> PatchSong(int id, string? name, string? album, string? genre, string? artist)
         {
@@ -59,17 +58,20 @@ namespace MusifyAPI.Controllers
         // POST: api/Song
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Route("/api/Music")]
         public async Task<ActionResult<Song>> PostSong(Song song)
         {
-            return CreatedAtAction("GetSong", new { id = song.SongId }, song);
+            await _musifyRepository.PostSong(song);
+            return Ok();
+            //return CreatedAtAction("GetSong", new { id = song.SongId }, song);
         }
 
         // DELETE: api/Song/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteSong(int id)
         {
-
-            return NoContent();
+            await _musifyRepository.DeleteSong(id);
+            return Ok();
         }
     }
 }
