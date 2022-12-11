@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Kv5utYNBiW6jnyaQw1pcphDB4WmRKegDCV046onnsvTlxjjuUIUzgqPfGqmuwjejgKZyNlS3O4mBEcjRkuil9g==",
+  "dgSpecHash": "qfYQPXXj9feNrBWel4JlRZy5OlN5DU3P5pwVE3Xl0ijbLM0ZWR4CKWyW7ExVvur7k5R4dQPpXsiqOMG4WOScbQ==",
   "success": true,
   "projectFilePath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/kamsi/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/messagepackanalyzer/2.1.152/messagepackanalyzer.2.1.152.nupkg.sha512",
+    "/Users/kamsi/.nuget/packages/microsoft.aspnet.webapi.client/5.2.9/microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.0/microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
@@ -83,6 +84,7 @@
     "/Users/kamsi/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/kamsi/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/nuget.common/6.3.1/nuget.common.6.3.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/nuget.configuration/6.3.1/nuget.configuration.6.3.1.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/nuget.dependencyresolver.core/6.3.1/nuget.dependencyresolver.core.6.3.1.nupkg.sha512",
@@ -151,6 +153,7 @@
     "/Users/kamsi/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/system.net.http/4.3.0/system.net.http.4.3.0.nupkg.sha512",
+    "/Users/kamsi/.nuget/packages/system.net.http.json/7.0.0/system.net.http.json.7.0.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/system.net.primitives/4.3.0/system.net.primitives.4.3.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/system.net.sockets/4.3.0/system.net.sockets.4.3.0.nupkg.sha512",
     "/Users/kamsi/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

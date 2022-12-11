@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MusifyApp.Models;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

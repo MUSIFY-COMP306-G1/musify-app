@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  musifyapi:
+    image: ${DOCKER_REGISTRY-}musifyapi
+    build:
+      context: .
+      dockerfile: MusifyAPI/Dockerfile

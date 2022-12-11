@@ -608,3 +608,5 @@
 /Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/obj/Debug/net7.0/MusifyApp.pdb
 /Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/obj/Debug/net7.0/MusifyApp.genruntimeconfig.cache
 /Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/obj/Debug/net7.0/ref/MusifyApp.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/bin/Debug/net7.0/System.Net.Http.Formatting.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll

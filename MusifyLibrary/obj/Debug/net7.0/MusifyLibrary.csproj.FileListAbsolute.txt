@@ -12,3 +12,17 @@
 /Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/ref/MusifyLibrary.dll
 /Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.runtimeconfig.json
 /Users/abimanoharan/Documents/GitHub/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.genruntimeconfig.cache
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.deps.json
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.runtimeconfig.json
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/bin/Debug/net7.0/MusifyLibrary.pdb
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.csproj.AssemblyReference.cache
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.AssemblyInfoInputs.cache
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.AssemblyInfo.cs
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.csproj.CoreCompileInputs.cache
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/refint/MusifyLibrary.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.pdb
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/MusifyLibrary.genruntimeconfig.cache
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyLibrary/obj/Debug/net7.0/ref/MusifyLibrary.dll

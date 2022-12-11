@@ -10,9 +10,9 @@ namespace MusifyAPI.Services
     {
         private MusifyContext _context;
 
-        public MusifyRepository()
+        public MusifyRepository(MusifyContext context)
         {
-
+            _context = context;
         }
 
         public async Task<ActionResult<IEnumerable<Song>>> GetSongs()
