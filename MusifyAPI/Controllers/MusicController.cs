@@ -35,7 +35,9 @@ namespace MusifyAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Song>> GetOneSong(int id)
         {
-            return null;
+            var music = await _musifyRepository.GetSong(id);
+            var results = _mapper.Map<MusicDto>(music);
+            return Ok(results);
         }
 
         // PUT: api/Song/5
