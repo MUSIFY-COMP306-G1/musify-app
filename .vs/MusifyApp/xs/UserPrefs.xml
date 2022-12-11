@@ -1,10 +1,6 @@
-﻿<Properties StartupConfiguration="{B5F42382-9502-4916-844D-187CDB0CB8F2}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MusifyApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MusifyApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MusifyApp/Controllers/SongController.cs">
     <Files>
       <File FileName="MusifyApp/Models/Song.cs" />
@@ -25,4 +21,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MusifyAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

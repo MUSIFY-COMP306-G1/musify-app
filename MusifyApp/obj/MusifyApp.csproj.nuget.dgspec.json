@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj": {}
+    "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj": {}
   },
   "projects": {
-    "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj": {
+    "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
+        "projectUniqueName": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj",
         "projectName": "MusifyApp",
-        "projectPath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/MusifyApp.csproj",
-        "packagesPath": "/Users/kamsi/.nuget/packages/",
-        "outputPath": "/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/MusifyApp/obj/",
+        "projectPath": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/MusifyApp.csproj",
+        "packagesPath": "/Users/abimanoharan/.nuget/packages/",
+        "outputPath": "/Users/abimanoharan/Documents/GitHub/musify-app/MusifyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kamsi/.nuget/NuGet/NuGet.Config"
+          "/Users/abimanoharan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

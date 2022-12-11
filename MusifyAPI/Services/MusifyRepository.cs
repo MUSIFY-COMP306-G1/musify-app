@@ -15,16 +15,17 @@ namespace MusifyAPI.Services
             _context = context;
         }
 
-        public async Task<ActionResult<IEnumerable<Song>>> GetSongs()
+        public async Task<IEnumerable<Song>> GetSongs()
         {
             return await _context.Songs.ToListAsync();
         }
 
 
-        public async Task<ActionResult<Song>> GetSong(int id)
+        public async Task<Song> GetSong(int id)
         {
-            var song = await _context.Songs.FindAsync(id);
-            return song;
+            IQueryable<Song> song;
+            song = _context.Songs.Where(s => s.SongId == id);
+            return await song.FirstOrDefaultAsync();
         }
 
         // PUT: api/Song/5
