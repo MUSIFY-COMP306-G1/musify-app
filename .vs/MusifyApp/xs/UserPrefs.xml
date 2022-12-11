@@ -1,19 +1,27 @@
 ﻿<Properties StartupConfiguration="{3FC617F4-0465-46DD-A7F1-BAC9C8C2C417}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.MusifyApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MusifyApp/Controllers/SongController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MusifyAPI/Controllers/MusicController.cs">
     <Files>
-      <File FileName="MusifyApp/Models/Song.cs" />
-      <File FileName="MusifyApp/Models/MusifyContext.cs" />
-      <File FileName="MusifyApp/Controllers/SongController.cs" Line="24" Column="13" />
-      <File FileName="MusifyApp/Program.cs" />
+      <File FileName="MusifyAPI/Controllers/MusicController.cs" Line="69" Column="10" />
+      <File FileName="MusifyAPI/Program.cs" />
+      <File FileName="MusifyAPI/MyJPIF.cs" Line="28" Column="1" />
+      <File FileName="MusifyAPI/Services/MusifyRepository.cs" Line="72" Column="10" NotebookId="1" IsPinned="True" />
+      <File FileName="MusifyLibrary/Models/MusifyContext.cs" Line="46" Column="46" NotebookId="1" />
+      <File FileName="MusifyAPI/Services/IMusifyRepository.cs" Line="12" Column="24" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MusifyApp" expanded="True">
-            <Node name="MusifyApp" expanded="True">
+            <Node name="MusifyAPI" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="MusifyApp" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="MusifyLibrary" expanded="True">
               <Node name="Models" expanded="True" />
             </Node>
           </Node>
@@ -25,4 +33,7 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.MusifyAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

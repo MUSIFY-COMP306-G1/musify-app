@@ -154,3 +154,5 @@
 /Users/abimanoharan/Documents/GitHub/musify-app/MusifyAPI/obj/Debug/net7.0/MusifyAPI.pdb
 /Users/abimanoharan/Documents/GitHub/musify-app/MusifyAPI/obj/Debug/net7.0/MusifyAPI.genruntimeconfig.cache
 /Users/abimanoharan/Documents/GitHub/musify-app/MusifyAPI/obj/Debug/net7.0/ref/MusifyAPI.dll
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyAPI/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/abimanoharan/Documents/GitHub/musify-app/MusifyAPI/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll

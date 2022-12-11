@@ -1,5 +1,6 @@
 ﻿using System;
 using AutoMapper;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MusifyAPI.DTOs;
@@ -49,10 +50,22 @@ namespace MusifyAPI.Controllers
         }
 
         // PATCH: api/Song/5
+        //[HttpPatch("{id}")]
+        //public async Task<IActionResult> PatchSong(int id, string? name, string? album, string? genre, string? artist)
+        //{
+        //    return null;
+        //}
+
         [HttpPatch("{id}")]
-        public async Task<IActionResult> PatchSong(int id, string? name, string? album, string? genre, string? artist)
+        public async Task<IActionResult> PatchSong(int id,
+            [FromBody] JsonPatchDocument<Song> patchDoc)
         {
-            return null;
+            var music = await _musifyRepository.GetSong(id);
+            patchDoc.ApplyTo(music, ModelState);
+
+            await _musifyRepository.PatchSong(music);
+
+            return Ok();
         }
 
         // POST: api/Song
