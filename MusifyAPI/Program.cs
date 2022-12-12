@@ -58,18 +58,18 @@ public class Program
 
     static async Task RunAsync()
     {
-        client.BaseAddress = new Uri("https://localhost:7111");
+        client.BaseAddress = new Uri("https://localhost:60874/");
         client.DefaultRequestHeaders.Accept.Clear();
         client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         try
         {
             string json;
             HttpResponseMessage response;
-            response = await client.GetAsync("/api/SongItem.json");
+            response = await client.GetAsync("/api/Music");
             if (response.IsSuccessStatusCode)
             {
                 json = await response.Content.ReadAsStringAsync();
-                IEnumerable<SongItem> items = JsonConvert.DeserializeObject <IEnumerable<SongItem >> (json);
+                IEnumerable<SongItem> items = JsonConvert.DeserializeObject <IEnumerable<SongItem>>(json);
                 foreach(SongItem item in items)
                 {
                     Console.WriteLine(item);

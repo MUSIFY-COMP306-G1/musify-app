@@ -17,6 +17,8 @@
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
     <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +34,8 @@
     <None Remove="Microsoft.AspNet.WebApi.Client" />
     <None Remove="System.Net.Http.Json" />
     <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.AspNetCore.JsonPatch" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />

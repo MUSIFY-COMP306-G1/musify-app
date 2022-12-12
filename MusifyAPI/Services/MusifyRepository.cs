@@ -68,7 +68,7 @@ namespace MusifyAPI.Services
         public async Task PatchSong(Song song)
         {
             _context.Update(song);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
 

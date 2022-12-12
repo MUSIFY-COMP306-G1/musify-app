@@ -8,6 +8,8 @@ namespace MusifyAPI
         public string album { get; set; }
         public string genre { get; set; }
         public string artist { get; set; }
+
+
         public SongItem()
 		{
 		}

@@ -22,3 +22,6 @@
 /Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
 /Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
 /Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/obj/Debug/docker-compose.dcproj.CopyComplete
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/bin/Debug/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/bin/Debug/Microsoft.AspNetCore.JsonPatch.dll
+/Users/kamsi/Documents/School2/5th semester/COMP 306 API Engineering & cloud/group/musify-app/bin/Debug/Newtonsoft.Json.Bson.dll

@@ -83,34 +83,22 @@ namespace MusifyApp.Controllers
         // PATCH: api/Song/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPatch("{id}")]
-        public async Task<IActionResult> PatchSong(int id, string? name, string? album, string? genre, string? artist)
+        public async Task<IActionResult> PatchSong(Song song)
         {
             if (_context.Songs == null)
             {
-                return NotFound();
+                return Problem("Entity set 'MusifyContext.Songs'  is null.");
             }
-            var song = await _context.Songs.FindAsync(id);
-            
-
-            if (song == null)
-            {
-                return NotFound();
-            }
-
-            _context.Entry(name).State = EntityState.Modified;
-            _context.Entry(album).State = EntityState.Modified;
-            _context.Entry(genre).State = EntityState.Modified;
-            _context.Entry(artist).State = EntityState.Modified;
-
+            _context.Songs.Update(song);
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateException)
             {
-                if (!SongExists(id))
+                if (!SongExists(song.SongId))
                 {
-                    return NotFound();
+                    return Conflict();
                 }
                 else
                 {
@@ -118,7 +106,7 @@ namespace MusifyApp.Controllers
                 }
             }
 
-            return NoContent();
+            return CreatedAtAction("GetSong", new { id = song.SongId }, song);
         }
 
         // POST: api/Song
